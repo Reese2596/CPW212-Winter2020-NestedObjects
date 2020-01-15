@@ -32,6 +32,6 @@ namespace NestedObjects
         /// Student can store a collection of courses 
         /// based on currently enrolled courses
         /// </summary>
-        public List<Course> Shedule { get; set; }
+        public List<Course> Schedule { get; set; }
     }
 }
