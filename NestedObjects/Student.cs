@@ -27,5 +27,11 @@ namespace NestedObjects
         /// Time is ignored
         /// </summary>
         public DateTime? DateofBirth { get; set; }
+
+        /// <summary>
+        /// Student can store a collection of courses 
+        /// based on currently enrolled courses
+        /// </summary>
+        public List<Course> Shedule { get; set; }
     }
 }
